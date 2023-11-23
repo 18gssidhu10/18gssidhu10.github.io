@@ -1,4 +1,3 @@
-# 18gssidhu10.github.io
 # Modding In-Game Properties Of Super Mario Bros. through Game Genie Codes
 
 ![voorkant cropped pws](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/41d72ddd-5857-483f-b1a2-7d8a74d6679a)
