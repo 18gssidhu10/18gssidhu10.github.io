@@ -21,6 +21,7 @@ Ik heb voor de game Super Mario Bros. gekozen, wat wellicht 1 van de meest popul
 
 Ik heb voor Super Mario Bros. gekozen voor een paar redenen:
 1) Ik ben een erg groot fan van Mario games en wou meer willen weten over de originele game en hoe de eerste game voelt vergeleken met 20 tot 30 jaren later? 
+
 2) Er is erg veel informatie over de game zelf, aangezien het zo een populaire game is. Wij hebben heel veel informatie over de game en weten eigenlijk alles over de game zelf. Dit komt voornamelijk door de Speedrunning community.
 Speedrunnen is het zo snel en efficiënt mogelijk voltooien van een game of een deel van een game. Om Super Mario Bros. uitgespeeld te hebben, moet je Bowser verslaan. Bowser is in Wereld 8 in het laatste level oftewel 8-4 waarbij het eerste getal voor de wereld staat waar je in speelt en het laatste level voor welk level het is. Er zijn in elke wereld (van 1 tot en met 8) 4 levels. Er zijn dus 32 levels in totaal. Om al deze levels te voltooien en uiteindelijk bij Bowser te komen en hem te verslaan, duurt het de gemiddelde persoon 2 uur. Dit is dus een normale playthrough en geen speedrun, maar hoelang doet de beste speedrunner erover? 
 
