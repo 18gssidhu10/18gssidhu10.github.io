@@ -20,6 +20,7 @@ Ik heb voor de game Super Mario Bros. gekozen, wat wellicht 1 van de meest popul
 ### Waarom kies ik voor Super Mario Bros.?
 
 Ik heb voor Super Mario Bros. gekozen voor een paar redenen:
+
 1) Ik ben een erg groot fan van Mario games en wou meer willen weten over de originele game en hoe de eerste game voelt vergeleken met 20 tot 30 jaren later? 
 
 2) Er is erg veel informatie over de game zelf, aangezien het zo een populaire game is. Wij hebben heel veel informatie over de game en weten eigenlijk alles over de game zelf. Dit komt voornamelijk door de Speedrunning community.
