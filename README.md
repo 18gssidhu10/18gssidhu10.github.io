@@ -41,7 +41,7 @@ Je kan dus in totaal 14 + 10 = 24 levels overslaan. Je moet dus 32 - 24 = 8 leve
 Hier komen glitches van te pas. Glitches zijn foutjes in de game code die ervoor zorgen dat er dingen in de game gebeuren die eigenlijk niet zouden gebeuren en niet de intentie was van de ontwikkelaar van de game. Een goed voorbeeld hiervan is het manipuleren van de timer wanneer je de vlag hebt bereikt. Wanneer je de vlag hebt bereikt moet de resterende tijd omlaag gaan naar 0 en opgeteld worden bij je score. Dit duurt best wel lang en speedrunners wouden een manier vinden om dat te manipuleren. Zij hebben hier, door middel van een glitch, ervoor gezorgd dat als je een pixel-perfect jump hebt op de flagpole, dat de timer niet tot 0 gaat en opgeteld wordt bij je score als je aan het wachten bent. In plaats daarvan ga je nadat Mario naar het eindkasteel bij een level is gekomen meteen naar het volgende level zonder delays (bij alle levels die geen castle (X-4) levels zijn.
 ![EmzlQ](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/01525144-3a4d-4363-9af2-bb7ae478fadf)
 
-**_Hier is de 'flagpole glitch'_**
+**_De 'Flagpole Glitch'_**
 
 
 
