@@ -24,6 +24,14 @@ Ik heb voor Super Mario Bros. gekozen voor een paar redenen:
 2) Er is erg veel informatie over de game zelf, aangezien het zo een populaire game is. Wij hebben heel veel informatie over de game en weten eigenlijk alles over de game zelf. Dit komt voornamelijk door de Speedrunning community.
 Speedrunnen is het zo snel en efficiënt mogelijk voltooien van een game of een deel van een game. Om Super Mario Bros. uitgespeeld te hebben, moet je Bowser verslaan. Bowser is in Wereld 8 in het laatste level oftewel 8-4 waarbij het eerste getal voor de wereld staat waar je in speelt en het laatste level voor welk level het is. Er zijn in elke wereld (van 1 tot en met 8) 4 levels. Er zijn dus 32 levels in totaal. Om al deze levels te voltooien en uiteindelijk bij Bowser te komen en hem te verslaan, duurt het de gemiddelde persoon 2 uur. Dit is dus een normale playthrough en geen speedrun, maar hoelang doet de beste speedrunner erover? 
 
+Het antwoord is 4 minuten, 54 seconden en 631 milliseconden. Dit betekent dus dat de beste speedrunner ongeveer 65 minuten sneller is! Je vraagt je nu vast af hoe dat kan. Om de game zo snel mogelijk uit te spelen moet je dus erg snel zijn en zo min mogelijk levels willen spelen en hier komen shortcuts van te pas. Shortcuts zijn in Super Mario Bros. verborgen ruimtes waar je naar een andere wereld kan gaan.
+
+![SMB_Warpzone](https://github.com/18gssidhu10/18gssidhu/assets/151066156/d29f32a2-5885-4608-8dea-ed3b3ad6b3ad)
+
+Zoals je hierboven in het plaatje kunt zien staat dat wij in wereld 1 zijn en het tweede level. Je kan hier dus naar Wereld twee, drie of vier gaan. Als je wereld twee kiest, sla je twee levels over, namelijk 1-3 en 1-4. Als je wereld drie kiest, sla je 1-3, 1-4 en heel wereld 2 over. Dit zijn dus 6 levels. Als je wereld vier kiest, sla je dus 1-3, 1-4, wereld 2 en wereld 3 over. Je slaat dus 10 levels over. Als speedrunner wil je zo snel mogelijk de game uitspelen, dus je kiest uiteraard voor warp (de pijp) 4. Dit soort verborgen ruimtes, waar je naar een andere wereld kan gaan, heten ‘Warp Zones’. 
+Wat handig is, is dat je in 4-2 ook een warp zone hebt. Dit zou betekenen dat je naar wereld vijf, zes of zeven zou kunnen gaan. Dit is echter niet het geval.
+
+
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=(https://youtu.be/-1fEDGuPKIg)
 " target="_blank"><img src="http://img.youtube.com/via(https://youtu.be/-1fEDGuPKIg)/0.jpg" 
