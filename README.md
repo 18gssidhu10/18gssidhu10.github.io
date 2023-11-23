@@ -31,6 +31,12 @@ Het antwoord is 4 minuten, 54 seconden en 631 milliseconden. Dit betekent dus da
 Zoals je hierboven in het plaatje kunt zien staat dat wij in wereld 1 zijn en het tweede level. Je kan hier dus naar Wereld twee, drie of vier gaan. Als je wereld twee kiest, sla je twee levels over, namelijk 1-3 en 1-4. Als je wereld drie kiest, sla je 1-3, 1-4 en heel wereld 2 over. Dit zijn dus 6 levels. Als je wereld vier kiest, sla je dus 1-3, 1-4, wereld 2 en wereld 3 over. Je slaat dus 10 levels over. Als speedrunner wil je zo snel mogelijk de game uitspelen, dus je kiest uiteraard voor warp (de pijp) 4. Dit soort verborgen ruimtes, waar je naar een andere wereld kan gaan, heten ‘Warp Zones’. 
 Wat handig is, is dat je in 4-2 ook een warp zone hebt. Dit zou betekenen dat je naar wereld vijf, zes of zeven zou kunnen gaan. Dit is echter niet het geval.
 
+![Super Mario Bros (JU) (PRG 0)-0](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/fdee48c5-2cfa-4cff-b180-28a1ff5f4e68)
+
+Zoals je hier ziet zie je wereld zes, zeven en acht als optie, maar geen 5. Dit is voor een speedrunner erg handig, omdat hij nu 14 levels (4-3,4-3, W5, W6, W7) erbij kan overslaan.
+Je kan dus in totaal 14 + 10 = 24 levels overslaan. Je moet dus 32 - 24 = 8 levels spelen om de game uit te spelen. Als 32 levels spelen ongeveer 120 minuten duurt, betekent het dus dat elke level 3 minuten en 40 seconden duurt. Doe dat keer het aantal levels dat je moet spelen om de game uit te spelen en je krijgt is 30 minuten. Hoe kan het dan dat er nog van die 30 minuten er 25 minuten van afgaan?
+
+Hier komen glitches van te pas. Glitches zijn foutjes in de game code die ervoor zorgen dat er dingen in de game gebeuren die eigenlijk niet zouden gebeuren en niet de intentie was van de ontwikkelaar van de game. Een goed voorbeeld hiervan is het manipuleren van de timer wanneer je de vlag hebt bereikt. Wanneer je de vlag hebt bereikt moet de resterende tijd omlaag gaan naar 0 en opgeteld worden bij je score. Dit duurt best wel lang en speedrunners wouden een manier vinden om dat te manipuleren. Zij hebben hier, door middel van een glitch, ervoor gezorgd dat als je een pixel-perfect jump hebt op de flagpole, dat de timer niet tot 0 gaat en opgeteld wordt bij je score als je aan het wachten bent. In plaats daarvan ga je nadat Mario naar het eindkasteel bij een level is gekomen meteen naar het volgende level zonder delays (bij alle levels die geen castle (X-4) levels zijn.
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=(https://youtu.be/-1fEDGuPKIg)
