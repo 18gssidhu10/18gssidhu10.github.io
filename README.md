@@ -76,6 +76,23 @@ Een terechte vraag die je nu kan stellen is hoe ze de codes voor nieuwe games ui
 
 Een console is een hardware apparaat waar je games op kan spelen. De beroemdste consoles zijn de Playstation, Xbox, Nintendo Switch etc. Consoles waren 50 jaar geleden vele malen slechter. De populairste manier om games te spelen voor 1980 was door middel van arcade machines. Arcade machines zijn apparaten die speciaal werden gemaakt om erop te gamen. Je kon ze in arcadehallen vinden, winkelcentra etc. In de jaren 80 wilde men dat gaming in plaats van buiten huis om, ook binnen het huis kon worden gespeeld. Zoals ik al eerder zei, is dit de tijd van ‘The Great Video Game Crash of 1983’. Iedereen probeerde in die tijd een apparaat te maken waarmee je thuis games kan spelen; een console. Omdat zo veel bedrijven consoles maakten, was er veel concurrentie. Iedereen wou dus zo snel mogelijk het af hebben, zodat zij de eerste zijn. Dit hebben ze ook gedaan met de games. Er waren dus veel te veel consoles om uit te kiezen en de games op al die verschillende consoles waren ook niet innovatief en goed qua game development. Doordat het zo een slechte markt werd, dachten sommige mensen zelfs dat de gaming industrie niet meer zal bestaan, maar toen kwam de console van Nintendo: The Nintendo Entertainment System. 
 
+### Geschiedenis NES/ Hoe werkt de NES?
+
+De NES leek niet op een console en gebruikte ook niet de termen video game, zodat het niet die slechte reputatie zou krijgen. Je kreeg er twee controllers bij, zodat het echt leek op een entertainend iets wat je met je familie kan spelen in de woonkamer. De NES was revolutionair door zijn nieuwe technologie voor die tijd. Het had:
+
+1) 1,7 megahertz processor
+2) 2 kilobytes aan RAM
+3) een maximale resolutie van 240p
+
+Een processor, ook wel CPU (Central Processing Unit) genoemd,  is het hart en brein van de console. De processor doet alle berekeningen, bewerkt alle gegevens, beheer van registers waar informatie opstaat, en het uitvoeren van instructies. De RAM, Random Access Memory, is het tijdelijke geheugen van de console. Het slaat dus de tijdelijke  toestanden van de game op als je speelt . Verder zorgt ervoor dat alle gegevens die nodig zijn snel geladen en verwerkt worden. Alle in-game eigenschappen die een waarde kunnen hebben, terwijl je het spel aan het spelen bent, zitten in de RAM. 
+De resolutie is het maximale aantal pixels dat je kan hebben op je scherm.
+
+Dit is natuurlijk erg laag voor ons, omdat wij gewend zijn aan veel betere technologie, maar in die tijd was dit vele malen beter dan de Atari 2600 bijvoorbeeld, die voordat de NES bestond erg populair was. De NES was revolutionair en begon aan een nieuwe generatie van consoles. Verder was de prijs van de NES best wel, want kostte maar 250 dollar als je het omrekent naar het heden. Al deze factoren zorgden ervoor dat dit een grote hit werd. De NES is in totaal 61,9 miljoen  keer verkocht, wat voor die tijd de meeste was in de geschiedenis van consoles. Door deze boost bleef Nintendo verder consoles maken en zij zijn daar nog steeds mee bezig. De Nintendo Switch is nu hun mainstream console en de Switch is al meer dan 125 miljoen keer gekocht. De specs vergeleken met de NES zijn ook verbazingwekkend. Het vermogen van de Switch is ongeveer 370.000 keer zo sterk als de NES! 
+De NES heeft niet veel geheugen, dus dit betekent dat er niet zo veel code is en het dus veel makkelijker is om in-game eigenschappen in de code te detecteren vergeleken met een console zoals de Switch, die letterlijk twee miljoen keer zoveel geheugen aankan!
+Het feit dat Super Mario Bros. een erg populaire game is met veel informatie in combinatie met een console waarbij het makkelijker is om in-game eigenschappen te veranderen hebben ervoor gezorgd dat ik dit als mijn onderzoeksvraag heb:
+
+**_Kan je met een NES Game Genie een eigen cheat code vinden voor Super Mario Bros. op de Nintendo Entertainment System?_**
+
 
 
 
