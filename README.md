@@ -149,9 +149,25 @@ Welke eigenschap je wil veranderen hangt erg af van welke waarde je wil verander
 
 Dit is een methode waarbij je veel moet brainstormen omdat je heel veel verschillende mogelijkheden hebt en veel opties. Jij moet  dus zelf kijken welke het beste is en goed werkt. Het grootste deel wat je moet onderzoeken is het kiezen van wat je eigenlijk wil veranderen. Voor heel veel codes moet je de opcodes veranderen, maar aangezien er zo veel verschillende mogelijkheden zijn moet je goed snappen wat je wil en wat de opcodes kunnen doen. Natuurlijk is het mogelijk om het te gokken, maar ik raad dat af, omdat het erg lang duurt en je er amper iets van leert en dan dus zelf ook niet snapt wat je hebt gedaan.
 
-#### Methode 2: Een uitgebreide disassembly van de game 
+#### Een uitgebreide disassembly van de game 
+
+Een uitgebreide disassembly van een game gebruik je wanneer je een erg complexe cheatcode wil gaan maken om bijvoorbeeld iets kleins of specifiek te doen wat normaliter dus niet kan bij RAM Maps. Hier zoek je dus voor iets specifiek, dus bijvoorbeeld hoe een blooper beweegt. Deze beweging kan je niet vinden in de RAM Map, maar wel in de disassembly. Deze manier gaat net als de RAM MAP. Je zal niet vaak een disassembly van een game zien, omdat het erg veel werk is. Je ziet disassembly vaak bij grote en populaire games. 
+
+#### RAM Searching
+
+Deze methode is niet erg efficiënt is heel vaak voor games die niet veel mensen kennen en waarvoor geen ram map of disassembly is. Bij de RAM search moet je kijken waar RAM addresses overeenkomen met wat jij wil. Stel je voor dat je wilt dat de vuurballengte minder moet worden. Je zal dan moeten aannemen dat het dus steeds omlaag gaat. Wanneer mario een fire flower heeft en een vuurbal gooit, moet je zsm de game op pauze zetten en de ram search zetten op kleiner dan, omdat je dus aanneemt dat het omlaag gaat . Unpause the game en pause the game weer totdat je maar 1 RAM Address vindt. Dit is de code die het dus ervoor zorgt. Herhaal weer stap 6 t/m 11 van methode 1 en je hebt je cheat code. 
 
 
+#### Random getallen invoeren en hopen dat het lukt
+
+Dit is by far de minst efficiënte manier en dit komt omdat het net als RAM Searching veel te lang duurt. Het feit dat je elke letter in een andere letter kan veranderen in een andere letter zorgt ervoor dat er te veel mogelijkheden zijn en je weet zelf niet eens welke letter wat verandert. Het maximaal aantal codes wat je kan maken is 26^8 en als je een bestaande code neemt zijn het er nog steeds 26x26 (zoals de handleiding van de Game Genie zei over eerste, tweede of laatste letter veranderen) = 676 verschillende mogelijkheden. Dit is dus niet een optie die je eigenlijk moet gebruiken als er geen andere mogelijkheid is.
+
+
+Ik zal zelf meer methode 1 en 2 gebruiken, omdat die het meest efficiënt en handigst zijn. 
+
+
+
+# Materiaal + Methode
 
 
 
