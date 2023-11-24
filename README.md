@@ -167,9 +167,24 @@ Ik zal zelf meer methode 1 en 2 gebruiken, omdat die het meest efficiënt en han
 
 
 
-# Materiaal + Methode
+# Materiaal 
+
+De materialen die je nodig hebt zijn:
+
+1) Een **PC** of **Laptop**. De Operating System maakt hier niet uit, aangezien de emulator FCEUX compatible is met elke OS. Je hebt minimaal een 32-bit processor nodig. Verder is er niet veel nodig. Zelfs een schoolcomputer kan deze software aan.
+
+2) **FCEUX64 2.6.5**. Dit is een NES emulator die erg handig is, omdat die een game genie encoder/decoder heeft, debugger, hex editor en nog veel meer. Hij heeft dus veel meer mogelijkheden vergeleken met andere emulators zoals Nestopia.
+
+3) **Super Mario Bros (JU) (PRG 0).nes**.  Dit is de Japanse game file van Super Mario Bros. De game file kan je vrij makkelijk op het internet vinden en aangezien de game ongeveer 50 jaar geleden is uitgebracht, heeft Nintendo niemand recent aangeklaagd voor piracy als het gaat om Super Mario Bros. voor de NES. Voor de zekerheid heb ik een cartridge van Super Mario Bros, de fysieke variant, voor de zekerheid. Ik raad het aan om er eentje te kopen, als je bang bent dat Nintendo je zal gaan aanklagen.
+
+Dit is stapsgewijs de methode die ik heb gebruikt. 
 
 
+# Methode
+
+Dit is stapsgewijs de methode die ik heb gebruikt. 
+
+1) 
 
 
 
