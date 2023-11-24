@@ -184,7 +184,11 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 Dit is stapsgewijs de methode die ik heb gebruikt. 
 
-1) 
+1) zoek in de RAM Map welke in-game property je wil veranderen. Als je iets wil veranderen wat niet in de RAM Map zit, ga dan naar de disassembly van de game.
+
+2) Als de eigenschap die je wilt veranderen daar staat, ziet het er als volgt uit:
+
+3) 
 
 
 
