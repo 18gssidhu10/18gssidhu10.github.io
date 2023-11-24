@@ -93,7 +93,16 @@ Het feit dat Super Mario Bros. een erg populaire game is met veel informatie in 
 
 **_Kan je met een NES Game Genie een eigen cheat code vinden voor Super Mario Bros. op de Nintendo Entertainment System?_**
 
+#### Motivatie onderwerp
 
+Dit onderwerp is erg relevant voor mij, omdat ik Computer Science ga studeren. Met een Computer Science bachelor en master degree kan je veel richtingen op, waaronder de gaming industrie als Game Developer. Ik hou erg veel van games en wil dus ook weten of het een geschikte baan is voor mij en of ik het wel leuk vind om dit soort dingen te doen. Dit is dus voor mij een middel om te kijken of een game engineer iets voor mij is. 
+
+#### Hypothese
+
+Ik denk dat het wel mogelijk zal zijn en het ook zal lukken om cheat codes te maken dmv de game genie, omdat ik erg veel bronnen en voorbeelden heb die ervoor kunnen zorgen dat het mij wel gaat lukken.Verder heb ik ook platforms zoals reddit en discord die mij kunnen helpen wanneer ik vastzit. Het enige probleem is hoe goed de cheat code werkt en dat er geen side effects zijn . 
+Het onderzoek dat ik ga doen is dus kijken of ik zelf een game genie code kan maken die werkt en dat ik snap hoe het werkt. Ik denk dat het experiment goed zal komen als ik het goed genoeg voorbereid.
+
+## Literatuurstudie
 
 
 
