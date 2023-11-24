@@ -109,7 +109,7 @@ Het is een middleman tussen de processor, oftewel de console en de Read Only Mem
 gekopieerd naar een soort  intern register. Wat de game genie doet is het lezen van elke ROM waarde en als het correspondeert met de waarde van de cheat code  het te veranderen naar de waarde die de cheat code wil. Elke code kan alleen maar 1 waarde veranderen van het interne register. Als ik een game genie code wil maken, moet ik ervoor zorgen dat ik de ROM waarde kan veranderen en sinds de ROM waarde in hex code is  moet ik een stukje van die hex code hebben om een game genie code te maken.  Ik heb er uitgebreid naar gezocht en heb erg veel decoders gevonden, maar niet erg veel encoders gevonden om dat te doen. Ik heb ze gevonden door een Discord User in de Discord Server ‘SMB Arena’. De user heeft zelf ook erg veel ervaring met het maken van Game Genie codes en die gaf mij de volgende methodes.
 Er zijn **Vier** verschillende methodes die je kan gebruiken om cheat codes te maken door middel van game genie codes. 
 
-1) Gebruik maken van RAM Maps
+####  Gebruik maken van RAM Maps
 Een RAM Map is een lijst met alle variabelen van een game. Je hebt een Address in de RAM en de informatie hierover (voorbeelden geven hiervan dmv fotos/film. dan zie je ook dat de values veranderen in de  hex editor). Al deze verschillende variabelen die veranderen make de RAM (Random Access Memory). Maar zoals ik al bij de literatuurstudie zei is het de ROM waar de game genie iets verandert dus wat heb je nou eigenlijk aan de RAM? Het zit zo: De ROM zegt wat de RAM moet doen en de RAM zegt wat de game moet doen. Dit is ook volkomen logisch, wat als de RAM dus de hele tijd verandert waarbij er meerdere mogelijkheden zijn (voorbeeld van enemies in dezelfde memory in ram) dan is het niet mogelijk om die te veranderen. RAM Maps bestaan vooral bij games die erg populair zijn zoals The Legend of Zelda en in mijn geval Super Mario Bros. De RAM Map die ik heb gebruikt telt alleen voor de JU versie dus die gebruik ik (zie materiaal)  Dit zijn de stappen hoe je een cheat code moet maken voor methode 1: (hier wil ik videovoorbeeld geven)
 
 1) Zoek in de RAM Map een waarde die je zou willen veranderen. 
@@ -118,6 +118,38 @@ Een RAM Map is een lijst met alle variabelen van een game. Je hebt een Address i
 
 3) Open de Game in FCEUX en ga naar Debug -> Hex Editor
 
+4) Kijk of je value correspondeert met wat er gebeurt in de game zelf
+
+5) Als dit zo is, klik je rechtermuisknop op het stukje memory wat je wil veranderen en klik je op Add write breakpoint for Address X waarbij X de variabele is oftewel je waarde. Hierbij opent de debugger vanzelf.
+
+Een write breakpoint is een plek in je programma die ervoor zorgt dat je makkelijker data en structuren kan vinden zodat je het programma beter kan onderzoeken en dat is perfect voor ons aangezien wij dat juist willen onderzoeken.
+De debugger laat, om het simpel te maken, zien waar de RAM zit in de ROM oftewel waar de waarde in de ROM staat en waar je het echt moet veranderen om een game genie code te maken.
+Vanaf nu wordt het een beetje lastig aangezien er heel veel verschillende mogelijkheden zijn. Dit zijn de belangrijkste mogelijkheden:
+
+CoMPare accumulator (CMP)
+DECrement memory (DEC) 
+INCrement memory (INC)
+LoaD Accumulator (LDA)
+STore Accumulator (STA)
+
+De andere mogelijkheden staan in het hoofdstuk 6502 Assembly Language
+Welke eigenschap je wil veranderen hangt erg af van welke waarde je wil veranderen 
+
+6) Probeer of de opcode te veranderen of de waarde van wat de opcode verandert
+
+7) Gebruik de Game Genie encoder door of op debugger -> game genie encoder/decoder of rechtermuisknop van address van rom create game genie code.
+
+8) Compare the value indien het nodig is
+
+9) Zet de cheat code bij je cheat code lijst
+
+10) Test het uit of het werkt
+
+11) als het niet werkt begin dan weer bij stap 6
+
+Dit is een methode waarbij je veel moet brainstormen omdat je heel veel verschillende mogelijkheden hebt en veel opties. Jij moet  dus zelf kijken welke het beste is en goed werkt. Het grootste deel wat je moet onderzoeken is het kiezen van wat je eigenlijk wil veranderen. Voor heel veel codes moet je de opcodes veranderen, maar aangezien er zo veel verschillende mogelijkheden zijn moet je goed snappen wat je wil en wat de opcodes kunnen doen. Natuurlijk is het mogelijk om het te gokken, maar ik raad dat af, omdat het erg lang duurt en je er amper iets van leert en dan dus zelf ook niet snapt wat je hebt gedaan.
+
+#### Methode 2: Een uitgebreide disassembly van de game 
 
 
 
