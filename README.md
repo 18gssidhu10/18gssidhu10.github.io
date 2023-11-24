@@ -102,7 +102,7 @@ Dit onderwerp is erg relevant voor mij, omdat ik Computer Science ga studeren. M
 Ik denk dat het wel mogelijk zal zijn en het ook zal lukken om cheat codes te maken dmv de game genie, omdat ik erg veel bronnen en voorbeelden heb die ervoor kunnen zorgen dat het mij wel gaat lukken.Verder heb ik ook platforms zoals reddit en discord die mij kunnen helpen wanneer ik vastzit. Het enige probleem is hoe goed de cheat code werkt en dat er geen side effects zijn . 
 Het onderzoek dat ik ga doen is dus kijken of ik zelf een game genie code kan maken die werkt en dat ik snap hoe het werkt. Ik denk dat het experiment goed zal komen als ik het goed genoeg voorbereid.
 
-## Literatuurstudie
+# Literatuurstudie
 
 
 
