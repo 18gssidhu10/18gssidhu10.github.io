@@ -128,11 +128,15 @@ Een write breakpoint is een plek in je programma die ervoor zorgt dat je makkeli
 De debugger laat, om het simpel te maken, zien waar de RAM zit in de ROM oftewel waar de waarde in de ROM staat en waar je het echt moet veranderen om een game genie code te maken.
 Vanaf nu wordt het een beetje lastig aangezien er heel veel verschillende mogelijkheden zijn. Dit zijn de belangrijkste mogelijkheden:
 
-CoMPare accumulator (CMP)
-DECrement memory (DEC) 
-INCrement memory (INC)
-LoaD Accumulator (LDA)
-STore Accumulator (STA)
+1. `CMP`: CoMPare accumulator 
+
+2. `DEC`: DECrement memory 
+
+3. `INC`: INCrement memory 
+
+4. `LDA`: LoaD Accumulator 
+
+5. `STA`: STore Accumulator 
 
 De andere mogelijkheden staan in het hoofdstuk 6502 Assembly Language
 Welke eigenschap je wil veranderen hangt erg af van welke waarde je wil veranderen 
