@@ -206,7 +206,15 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 ![Schermafbeelding 2023-11-26 195955](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/3227b79b-3792-4e80-8c8c-1d38e54a1804)
 
-6) 
+![Schermafbeelding 2023-11-26 200451](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/331b4533-50b4-4052-a0c7-a33778eca34f)
+
+**_De Hex Editor ziet er zo uit. Links zie je de address en in het midden de waarden_**
+
+6) Als je de hex editor open hebt gemaakt, run je de game totdat de waarde van je eigenschap die je wou veranderen verandert. Dit doe je, omdat je zeker wil weten dat de value verandert alleen op de eigenschap die jij wil verandert en niet op iets anders
+
+7) Nadat je hebt gecheckt of het de goede RAM Address is, ga je een toestand vinden waar die waarde verandert naar de eigenschap die jij wil en je zet de game op pauze als de eigenschap die je wil veranderen niet een tijdsperiode heeft. Daar zet je een writing breakpoint bij. Als je met je rechtermuisknop op de address klikt waar de waarde van jouw eigenschap verandert, dan krijg je
+
+   
 
 
 
