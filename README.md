@@ -216,7 +216,7 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 ![Schermafbeelding 2023-11-26 200451(1)](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/2c7a078d-11a3-41ce-82d6-921686ce6839)
 
-**_Als je address `0x0057` is, dan zie je dat het de waarde E8 is en bij `0x008B` 80 _**
+**_Als je address `0x0057` is, dan zie je dat het de waarde E8 is en bij `0x008B` 80_**
 
 6) Als je de hex editor open hebt gemaakt, run je de game totdat de waarde van je eigenschap die je wou veranderen verandert. Dit doe je, omdat je zeker wil weten dat de value verandert alleen op de eigenschap die jij wil verandert en niet op iets anders
 
