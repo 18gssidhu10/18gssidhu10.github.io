@@ -193,13 +193,20 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 ![Schermafbeelding 2023-11-26 193811](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/b7cefeac-9a97-4bf1-8275-2799134756d3)
 
 
-3) Nadat je de RAM Address hebt gevonden van de eigenschap die je wil veranderen open je FCEUX
+3) Nadat je de RAM Address hebt gevonden van de eigenschap die je wil veranderen,  open je FCEUX
 
 ![573eec40e4ef4f2089531dd5cbf629f8](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/65ae018a-83cb-4a9e-8b8b-4483168bf071)
        **_Het logo van FCEUX_**
 
-4) 
+4) Open het bestand van je game (File -> Open -> "De directory van de game"
 
+![Schermafbeelding 2023-11-26 195803](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/2124d77b-e1ac-432b-adb7-83d5d6d44205)
+
+5) Open de ga Hex Editor (Debug -> Hex Editor...)
+
+![Schermafbeelding 2023-11-26 195955](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/3227b79b-3792-4e80-8c8c-1d38e54a1804)
+
+6) 
 
 
 
