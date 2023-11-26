@@ -220,9 +220,16 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 6) Als je de hex editor open hebt gemaakt, run je de game totdat de waarde van je eigenschap die je wou veranderen verandert. Dit doe je, omdat je zeker wil weten dat de value verandert alleen op de eigenschap die jij wil verandert en niet op iets anders
 
-7) Nadat je hebt gecheckt of het de goede RAM Address is, ga je een toestand vinden waar die waarde verandert naar de eigenschap die jij wil en je zet de game op pauze als de eigenschap die je wil veranderen niet een tijdsperiode heeft. Daar zet je een writing breakpoint bij. Als je met je rechtermuisknop op de address klikt waar de waarde van jouw eigenschap verandert, dan krijg je
+7) Nadat je hebt gecheckt of het de goede RAM Address is, ga je een toestand vinden waar die waarde verandert naar de eigenschap die jij wil en je zet de game op pauze als de eigenschap die je wil veranderen niet een tijdsperiode heeft. Daar zet je een writing breakpoint bij. Als je met je rechtermuisknop op de address klikt waar de waarde van jouw eigenschap verandert, dan krijg je dit te zien:
 
-   
+![Schermafbeelding 2023-11-26 204750](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/a9cdcbbc-7e91-456f-bbfe-d770d499beab)
+
+8) Hier klik je op: Add Write Breakbpoint for Address X (in het geval van de afbeelding is het dus 10F8) 
+
+9) Nadat je dit hebt gedaan, ga je weer de waarde van je property veranderen door de game nu normaal te spelen totdat de waarde verandert corresponderend met de Write Breakpoint. Als dat goed gaat opent de debugger vanzelf en krijg je dit te zien:
+
+
+
 
 
 
