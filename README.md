@@ -195,7 +195,7 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 3) Nadat je de RAM Address hebt gevonden van de eigenschap die je wil veranderen open je FCEUX
 
-<img src="https://[your-image-url](https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/573eec40e4ef4f2089531dd5cbf629f8.png).type" width="100" height="100">
+<img src="https://[your-image-url](https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/573eec40e4ef4f2089531dd5cbf629f8.png)" width="100" height="100">
 **_Het logo van FCEUX_**
 
 4) 
