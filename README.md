@@ -196,7 +196,7 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 3) Nadat je de RAM Address hebt gevonden van de eigenschap die je wil veranderen open je FCEUX
 
 ![573eec40e4ef4f2089531dd5cbf629f8](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/65ae018a-83cb-4a9e-8b8b-4483168bf071)
-**_Het logo van FCEUX_**
+       **_Het logo van FCEUX_**
 
 4) 
 
