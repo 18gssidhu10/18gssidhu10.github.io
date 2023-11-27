@@ -277,7 +277,7 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 
 # Resultaten
 
-[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg))](https://youtu.be/-1fEDGuPKIg) 
+[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg.)](https://youtu.be/-1fEDGuPKIg) 
 **_Showcase/Rundown Cheat Code "NYSUZSZE"_**
 
 
