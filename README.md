@@ -278,17 +278,7 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 # Resultaten
 
 [![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg))](https://youtu.be/-1fEDGuPKIg) 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=-1fEDGuPKIg)
 
-https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/769aaf91-f816-46cf-b555-e54e4eb69d96
- {% raw %} {% include youtube.html id="-1fEDGuPKIg" %}
-{% endraw %}
-
-{% include youtube.html id="-1fEDGuPKIg" %}
-https://youtu.be/-1fEDGuPKIg
-https://youtu.be/P4JKA_ExkUo
 
 
 # Conculusie/Discussie
