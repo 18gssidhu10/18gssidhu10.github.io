@@ -277,7 +277,7 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 
 # Resultaten
 
-[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/Schermafbeelding 2023-11-27 191604.jpg))](https://youtu.be/-1fEDGuPKIg) 
+[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg))](https://youtu.be/-1fEDGuPKIg) 
 
 [![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/Schermafbeelding 2023-11-27 191604.jpg))](https://youtu.be/-1fEDGuPKIg) 
 
@@ -329,7 +329,7 @@ Super Mario Bros. is opgeschreven in de taal van Assembly en om precies te zijn 
 
 `LDA`, LoaD Accumulator: van het geheugen naar accumulator en houdt daar alle data vast
 
-`LDX`, LoaD X register: Werkt hetelfde als LDA maar als je grens hebt overschreden wordt het een extra page. 
+`LDX`, LoaD X register: Werkt hetelfde als `LDA` maar als je grens hebt overschreden wordt het een extra page. 
 
 `LDY`, LoaD Y register: werkt hetzelfde als `LDX`
 
@@ -345,9 +345,9 @@ Super Mario Bros. is opgeschreven in de taal van Assembly en om precies te zijn 
 
 `STA`, STore Accumulator: dit is waar de values worden bewaard. Voor een `STA` is altijd een `LDA`. Dit zal van te pas komen bij het maken van cheat codes.
 
-`STX`, STore X register: specifieke versie van STA in RAM
+`STX`, STore X register: specifieke versie van `STA` in RAM
 
-`STY`, STore Y register:zelfde als STX 
+`STY`, STore Y register:zelfde als `STX` 
 
 
 # Bonvermelding 
