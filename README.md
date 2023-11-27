@@ -278,11 +278,7 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 # Resultaten
 
 [![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg))](https://youtu.be/-1fEDGuPKIg) 
-
-![Schermafbeelding 2023-11-27 191604](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/0a53090d-cb15-4e27-bf6d-5fdd8e89b80b)
-[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/assets/151066156/0a53090d-cb15-4e27-bf6d-5fdd8e89b80b.jpg))](https://youtu.be/-1fEDGuPKIg) 
-
-https://i9.ytimg.com/vi_webp/-1fEDGuPKIg/mqdefault.webp?v=6564dd7a&sqp=CKS5k6sG&rs=AOn4CLAqbURolRzsPQaTmEiTe8vnZyyx6Q
+**_Showcase/Rundown Cheat Code "NYSUZSZE"_**
 
 
 
