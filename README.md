@@ -278,8 +278,11 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 # Resultaten
 
 
-{% include youtube.html id="-1fEDGuPKIg" %}
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=-1fEDGuPKIg)
 
+{% include youtube.html id="-1fEDGuPKIg" %} 
 
 
 
@@ -289,7 +292,7 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 
 
 
-# Conculusie/Discussie
+# Conclusie/Discussie
 
 Voor een vervolgonderzoek zou ik ook graag de andere methodes willen proberen. Wat mij vooral interessant lijkt is om te kijken of ik zelf mijn cheat codes die ik heb gemaakt kan maken met de andere methodes. Dat is natuurlijk niet efficiënter, maar daarmee kan ik wel bewijzen dat het ook kan met de andere cheatcodes.
 
