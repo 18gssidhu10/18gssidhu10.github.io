@@ -279,7 +279,11 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 
 [![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg))](https://youtu.be/-1fEDGuPKIg) 
 
-[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/Schermafbeelding 2023-11-27 191604.jpg))](https://youtu.be/-1fEDGuPKIg) 
+[![Watch the video](https://img.youtube.com/vi/-1fEDGuPKIg/[maxresdefault.jpg](https://i9.ytimg.com/vi_webp/-1fEDGuPKIg/mqdefault.webp?v=6564dd7a&sqp=CKS5k6sG&rs=AOn4CLAqbURolRzsPQaTmEiTe8vnZyyx6Q
+)))](https://youtu.be/-1fEDGuPKIg) 
+
+
+https://i9.ytimg.com/vi_webp/-1fEDGuPKIg/mqdefault.webp?v=6564dd7a&sqp=CKS5k6sG&rs=AOn4CLAqbURolRzsPQaTmEiTe8vnZyyx6Q
 
 
 
