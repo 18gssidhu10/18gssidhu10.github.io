@@ -188,7 +188,8 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 # Methode
 
-Dit is stapsgewijs de methode die ik heb gebruikt. 
+De methode die ik heb gebruikt is een combinatie van methode 1 en 2 waarbij ik vooral de RAM Map heb gebruikt en bij sommige cheat codes de disassembly.  
+Dit is stapsgewijs de methode die ik heb gebruikt.  
 
 1) zoek in de RAM Map welke in-game property je wil veranderen. Als je iets wil veranderen wat niet in de RAM Map zit, ga dan naar de disassembly van de game.
 
@@ -228,20 +229,171 @@ Dit is stapsgewijs de methode die ik heb gebruikt.
 
 9) Nadat je dit hebt gedaan, ga je weer de waarde van je property veranderen door de game nu normaal te spelen totdat de waarde verandert corresponderend met de Write Breakpoint. Als dat goed gaat opent de debugger vanzelf en krijg je dit te zien:
 
+![debug (1)](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/c5a8f0a0-eb80-4386-8680-fd3546ac3830)
+
+**_Het zwarte omringde is de ROM Address en linksboven de RAM Address die je als breakpoint gebruikt_**
+
+Zoals al eerder is verteld veranderen Game Genie codes de waarde van de ROM en niet van de RAM. Als wij naar de Address gaan die daar staat, kom je dus je code tegen. Hier wordt het brainstormen, omdat je zelf moet kijken of je de opcode of de waarde wil veranderen. Vaak verander je de opcode en misschien verander je de opcode die daarvoor kwam, omdat er een correlatie tussen twee opcodes is. Dit is een lang proces van trial and error totdat je een goede oplossing hebt gevonden zodat wat je wilt veranderen ook zal veranderen. Bij de trial and error heb je de volgende stappen:
+
+1) Kijk naar welke opcode het is. Dit kan je zien door middel van de Hexadecimale code waarin de Hex Editor is geschreven.  `95` staat voor een `STA` en om precies te zijn deze `STA: Zero Page,X   STA $44,X`. Elke opcde heeft verschillende soorten die hij kan aannemen en hierbij moet je ook zelf bedenken wat de beste optie is. Wat voor soort opcode het eerst was ie je ook in de debugger naast de ROM Address:
+
+![Schermafbeelding 2023-11-27 015418](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/91730049-ca35-4d53-830e-4743e99bd0e4)
+
+Hier zie je een waarde van vier cijfers. Als je naar de site gaat waarin alles over opcodes staat (http://www.6502.org/tutorials/6502opcodes#STA), zie je dit:
+
+![Schermafbeelding 2023-11-27 015529](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/b52e8196-8c6f-46b5-bf91-331f66eef87d)
+
+Dit zegt dus dat het hier een Store Accumulator is, die altijd een vaste waarde heeft. 
+Bij alles wat je wil veranderen moet je dus goed opletten wat je kan en moet veranderen. 
+
+2) Als je weet waar je de opcode of waarde naartoe wil veranderen, dan ga je weer terug naar de Hex Editor.
+
+3) Klik in de Hex Editor op de address die je wilt veranderen. Je krijgt dit te zien:
+
+![Schermafbeelding 2023-11-27 015648](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/27b6c1ab-aa97-4476-9ff4-0a50a7c0229b)
+
+4) Klik op Create Game Genie Code At This Address.
+
+5) Vul de address van het stukje in at je wou veranderen, en schrijf daaronder welke naar welke value je het wil veranderen en vergeleken met welke waarde als jouw eigenschap meerdere waardes kan hebben.
+
+![Schermafbeelding 2023-11-27 015814](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/ecb17a68-5ed3-4e2d-b8bf-258649ddab24)
+
+**_Dit is hoe de Game Genie Encoder/Decoder eruitziet. 
+Bij Address: zet je de ROM address in.
+Bij Compare: welke waarde in de address moet hij hebben voor de cheat code om te werken. 
+Bij Value: waarin je de waarde wil veranderen op die address_**
+
+6) Klik op Add To Cheat List
+
+7) Reset de game en zorg ervoor dat cheats enabled zijn. (Tools -> Cheats)
+
+![Schermafbeelding 2023-11-27 020320](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/a8718d9d-c740-4870-a458-87492542ab1d)
+
+8) Kijk of je eigenschap is verandert hoe je het wilt hebben. Zo niet, ga dan terug naar stap 1 en probeer iets anders te vinden.
 
 
+Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de rundown van zo een cheat code maken laten zien bij de resultaten
 
 
+# Resultaten
+
+https://youtu.be/-1fEDGuPKIg
+https://youtu.be/P4JKA_ExkUo
 
 
+# Conculusie/Discussie
+
+Voor een vervolgonderzoek zou ik ook graag de andere methodes willen proberen. Wat mij vooral interessant lijkt is om te kijken of ik zelf mijn cheat codes die ik heb gemaakt kan maken met de andere methodes. Dat is natuurlijk niet efficiënter, maar daarmee kan ik wel bewijzen dat het ook kan met de andere cheatcodes.
+
+Wat verder voor een vervolgonderzoek zou kunnen en het hele proces efficiënter is, is het automatiseren van het proces. Dit kan door gebruik te maken van een scripting interface. Een scripting interface zorgt ervoor dat een handeling die je erg vaak moet doen, in mijn geval dus kijken welke opcodes werken, geautomatiseerd worden door middel van een script.
+Wat ook interessant zou zijn is om game genie codes te maken voor games die niet zo populair zijn zodat ik alleen methode 3, oftewel ROM Searching, kan gebruiken. Als ik vragen heb over de game, dan kan het zo zijn dat mensen die mij hebben geholpen met Super Mario Bros amper weten hoe het met die game mechanics zit. Verder kan je bij sommige games (ook populaire) ROM Banking hebben. Dit soort ROMs heten Memory Mapped ROMs. ROM Banking zorgt ervoor dat er meer geheugen is dan er eigenlijk fysiek kon. De NES leest een deel van de ROM Address, een “Bank’’, die dan geladen zal worden. Wanneer een andere Bank nodig is, switcht hij naar de andere Bank. Hierdoor ontstaat er dus veel meer plek voor meer code.
+
+Verder kan ik proberen game genie codes te maken voor andere consoles, aangezien de Game Genie ook gemaakt is voor andere consoles zoals de Sega Genesis, Sega Game Gear,  Game Boy en de SNES. De methode zal overal anders zijn behalve de SNES, omdat de SNES erg veel lijkt op de NES en de Game Genie ook op dezelfde manier de ROM verandert. Bij de andere consoles zou ik op zoek moeten gaan naar de emulators en kijken of de emulators een Hex Editor, Debugger en Game Genie Encoder/Decoder hebben. Als zij dat ook hebben, is het nog steeds lastig om Game Genie codes te maken, omdat de opslag vergeleken met de NES vele malen groter is. 
+
+Ik heb zelf gemerkt dat sommige bronnen die ik heb gebruikt voor dit experiment niet dezelfde informatie geven over een bepaalde RAM Address. Dit was in het geval van de RAM Map ten opzichte van de Disassembly. De disassembly is namelijk veel duidelijker en gedetailleerder, terwijl de RAM Map vaak een vage beschrijving geeft van de RAM Address. Ik heb daarom ook altijd gecheckt of alles overeenkomt met de disassembly, omdat die ook door veel mensen in de community van de modding scene zeggen dat dit erg betrouwbaar is. Het is dus altijd handig om na te gaan bij meerdere bronnen of zij wel hetzelfde zeggen.
 
 
+# 6502 Assembly Language 
+## Refereren naar assembly en de opcodes
+
+Super Mario Bros. is opgeschreven in de taal van Assembly en om precies te zijn 6502 Assembly Language.  Dit is een 16-bit processor die vaak is gebruikt voor consoles zoals de Commodore, Apple I, Acorn etc. De taal is een low level language, omdat de normale mens het niet kan lezen, maar computers wel. Assembly language gebruikt het hexadecimale stelsel in plaats van het decimale getallenstelsel. Het getallenstelsel dat wij gebruiken in ons stelsel zijn 0 tot en met 9, maar bij het hexadecimale getallenstelsel is het van 0 tot en met 9 en daarna komt A tot en met F. ‘F’ is dus 15 in het ‘normale’ getallenstelsel.   Wat wij vooral nodig hebben zijn de opcodes van assembly. Een opcode is een stukje code die specifiek zegt welk deel van de code bewerkt moet worden. Datgene waar de opcode de waarde verandert, heten operanden. Dit zijn alle opcodes die assembly gebruikt en ik zal kort uitleggen wat elke doet. 
+
+`ADC`, ADd with Carry: Dit voegt de eerste 2 operands toe en de Carry Flag (`CF`)
+
+`AND`, bitwise AND with accumulator: heeft een operand gepaard met accumulator en stopt het weer terug in de accumulator 
+
+`ASL`, Arithmetic Shift Left: verplaatst de byte van bijvoorbeeld de eerste plaats naar de laatste plaats in de RAM 
+
+`BRA`, BRanch Always: je kan de volgorde van instructies bepalen
+
+`BRK`, BReaK: veroorzaakt een interrupt waardoor de program counter omhoog gaat
+
+`CMP`, CoMPare accumulator: zoals het al zegt vergelijkt het 2 values (door ze van elkaar af te halen)
+
+`CPX`, ComPare X register: Werkt hetzelfde als CMP
+
+`CPY`, ComPare Y register: Werkt hetzelfde als CMP
+
+`DEC`, DECrement memory: je verlaagt de waarde 1
+
+`EOR`, bitwise Exclusive OR: vergelijkt de bit van de eerste operand met de eerste bit van de tweede operand. 
+
+`INC`, INCre: hoeveel van de value wordt toegenomen met memory 
+
+`JMP`, JuMP: springt (letterlijk en figuurlijk naar de volgende address) 
+
+`JSR`, Jump to SubRoutine, springt naar de stack voordat hij verder gaat 
+
+`LDA`, LoaD Accumulator: van het geheugen naar accumulator en houdt daar alle data vast
+
+`LDX`, LoaD X register: Werkt hetelfde als LDA maar als je grens hebt overschreden wordt het een extra page. 
+
+`LDY`, LoaD Y register: werkt hetzelfde als `LDX`
+
+`LSR`, Logical Shift Right: elke bit verschuift 1 naar rechts
+
+`NOP`, No OPeration: ruimte dat is overgehouden voor opcodes die later erin kunnen worden gezet 
+
+`ORA`, bitwise OR with Accumulator: zet een keuze op bij de accumulator bijvoorbeeld waar of niet waar
+
+`ROL`, ROtate Left: elke bit verschuift eentje naar links
+
+`ROR`, ROtate Right: elke bit verschuift eentje naar rechts
+
+`STA`, STore Accumulator: dit is waar de values worden bewaard. Voor een `STA` is altijd een `LDA`. Dit zal van te pas komen bij het maken van cheat codes.
+
+`STX`, STore X register: specifieke versie van STA in RAM
+
+`STY`, STore Y register:zelfde als STX 
 
 
+# Bonvermelding 
 
+1) 1wErt3r, (2012), ‘A Comprehensive Super Mario Bros. Disassembly’
+Geraadpleegd op 16 Juni 2023 via https://gist.github.com/1wErt3r/4048722
+2) ‘6502 Assembly’ geraadpleegd op 16 juli 2023 via 
+https://en.wikibooks.org/wiki/6502_Assembly
 
+3) ‘Codemasters’ Geraadpleegd op 19 september 2023 via  
+https://nintendo.fandom.com/wiki/Codemasters
 
+4) ‘FCEUX’ geraadpleegd op 10 juli 2023 via https://fceux.com/web/home.html
 
+5) Fernando, Jason, (2023), ‘Assembly Language’ 
+Geraadpleegd op 18 september 2023 via https://www.investopedia.com/terms/a/assembly-language.asp#:~:text=An%20assembly%20language%20is%20a,to%20be%20readable%20by%20humans
+
+6) ‘Game Genie’ Geraadpleegd op 19 september 2023 via 
+https://www.nesdev.org/wiki/Game_Genie#:~:text=The%20Game%20Genie%20is%20a,game%20to%20be%20inserted%20into
+
+7) ‘game genie (instructions only)’ Geraadpleegd op 18 september 2023 via https://www.digitpress.com/library/manuals/nes/game%20genie%20(instructions%20only).pdf
+
+8) Gryphon, Kaden, Ven, (2022), ‘Teaching Assembly Programming Through Video Games’
+Geraadpleegd op 15 juli 2023 via 
+https://louis.uah.edu/cgi/viewcontent.cgi?article=1703&context=honors-capstones
+
+9) Kent, S.L., (2001) The Ultimate History of Video Games, Roseville, California
+
+10) Morgan, Nick, (2015), ‘Easy 6502’
+Geraadpleegd op 15 juli 2023 via https://skilldrick.github.io/easy6502/
+
+11) Pickens, John, (2020), ‘NMOS 6502 Opcodes’
+Geraadpleegd op 18 september 2023 via http://www.6502.org/tutorials/6502opcodes#DFLAG
+
+12) Realemulator101, ‘6502 Addressing Modes’, Geraadpleegd op 20 september 2023 via http://www.emulator101.com/6502-addressing-modes.html
+
+13) Reddit en Discord  Geraadpleegd op 20 november 2023 
+
+14) Selwyn, Kevin, (2019), ‘Game Genie Disassembly’
+Geraadpleegd via https://www.kevinselwyn.com/posts/game-genie-disassembly/
+
+15) Silverberg, David, (2020), ‘Game Breaking: How Cheat Codes Changed Video Games Forever’
+Geraadpleegd op 15 september 2023 via https://www.popularmechanics.com/culture/gaming/a33650224/cheat-code-history/
+
+16) ‘Super Mario Bros.:RAM map’ Geraadpleegd op 21 september 2023 via https://datacrystal.romhacking.net/wiki/Super_Mario_Bros.:RAM_map
+
+17) The Might Mike Master, ‘NES Game Genie Technical Notes’
+Geraadpleegd op 15 september 2023 via 
+https://tuxnes.sourceforge.net/gamegenie.html
 
 
 
