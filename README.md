@@ -277,10 +277,7 @@ Dit is hoe ik elk van mijn game genie codes heb gemaakt. Ik zal video’s van de
 
 # Resultaten
 
-
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/-1fEDGuPKIg/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=-1fEDGuPKIg)
+{% include youtube.html id="P4JKA_ExkUo" %} 
 
 {% include youtube.html id="-1fEDGuPKIg" %} 
 
