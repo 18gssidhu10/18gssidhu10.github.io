@@ -317,9 +317,9 @@ Super Mario Bros. is opgeschreven in de taal van Assembly en om precies te zijn 
 
 `CMP`, CoMPare accumulator: zoals het al zegt vergelijkt het 2 values (door ze van elkaar af te halen)
 
-`CPX`, ComPare X register: Werkt hetzelfde als CMP
+`CPX`, ComPare X register: Werkt hetzelfde als `CMP`
 
-`CPY`, ComPare Y register: Werkt hetzelfde als CMP
+`CPY`, ComPare Y register: Werkt hetzelfde als `CMP`
 
 `DEC`, DECrement memory: je verlaagt de waarde 1
 
@@ -401,31 +401,3 @@ Geraadpleegd op 15 september 2023 via https://www.popularmechanics.com/culture/g
 17) The Might Mike Master, ‘NES Game Genie Technical Notes’
 Geraadpleegd op 15 september 2023 via 
 https://tuxnes.sourceforge.net/gamegenie.html
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Rundown of Making the Game Genie Code 'NYSUZSZE'](https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/265fb032-d0c3-466b-942c-8215164a5d1d)
-
-https://github.com/18gssidhu10/18gssidhu10.github.io/assets/151066156/dfa6c364-13e6-4f1d-a60a-655dee559eb3
-
