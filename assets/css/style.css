@@ -1,14 +1,23 @@
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #0d1117; 
+
+  background-image: url('/assets/bg.jpg');
+
+  background-repeat: repeat;  
+  background-size: 400px;    
+  background-attachment: fixed; 
+  
+  
+  background-color: #0d1117;  
+  background-blend-mode: multiply; 
+  
   color: #c9d1d9;
-  
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  
   line-height: 1.6;
   font-size: 16px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 
