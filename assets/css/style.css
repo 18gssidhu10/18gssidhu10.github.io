@@ -1,63 +1,56 @@
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #0d1117;  
-  color: #c9d1d9;            
+  background-color: #0d1117; 
+  color: #c9d1d9;
   
-
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   
   line-height: 1.6;
   font-size: 16px;
 }
 
 
-h1, h2, h3, h4, h5, h6, .site-nav {
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", monospace;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courier New", Courier, monospace;
   color: #ffcc00; 
-  text-transform: uppercase; 
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 
 .site-nav {
-  background-color: #000000;
+  background-color: #000000;    
   border-bottom: 1px solid #30363d;
   padding: 15px 0;
   text-align: center;
-  position: sticky;
+  position: sticky;              
   top: 0;
   z-index: 100;
+  font-family: "Courier New", Courier, monospace;
 }
+
 
 .nav-link {
   color: #e0e0e0;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 15px;                
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: #ffcc00; 
+  color: #ffcc00;                
   text-decoration: underline;
 }
 
 
 a {
-  color: #58a6ff; 
+  color: #58a6ff;                 
   text-decoration: none;
 }
-a:hover { text-decoration: underline; }
-
-
-pre, code {
-  font-family: "Courier New", Courier, monospace; 
-  background-color: #161b22;
-  border: 1px solid #30363d;
-  border-radius: 6px;
-  color: #ffcc00;
-  padding: 10px;
-  overflow-x: auto;
+a:hover {
+  text-decoration: underline;
 }
 
 
@@ -65,4 +58,15 @@ pre, code {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+}
+
+
+pre, code {
+  font-family: Consolas, Monaco, monospace;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #ffcc00;                
+  padding: 10px;
+  overflow-x: auto;              
 }
