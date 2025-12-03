@@ -2,9 +2,6 @@
 layout: default
 title: HS Thesis (PWS): Modding In-Game Properties Of Super Mario Bros. through Game Genie Codes
 ---
-# Super Mario Bros Modding
-(Paste your original README content here)
-
 
 # Modding In-Game Properties Of Super Mario Bros. through Game Genie Codes
 
