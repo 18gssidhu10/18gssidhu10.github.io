@@ -1,0 +1,8 @@
+---
+layout: default
+title: Home
+---
+# Welcome
+Bwaaa
+* [HS Thesis](/HS-Thesis)
+* [CTF Writeups](/ctf-writeups)
