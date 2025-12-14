@@ -242,4 +242,9 @@ The while loop is an infinite loop, and makes it so that we have to wait for the
 
 Last but not least, we have the main menu. The main menu shows the options we saw on puTTY.
 In option 1 we see this: `printf("Byte %d = %02x\n\n", i, cache[i]);`. I assumed that the cache has the data that was written to `print_buf`. It is not written anywhere explicitly, but it is the most logical option because otherwise there is no way to solve the challenge afaik. 
-Option 2 calls `inspect_index` and like I already explained, it writes the decrypted byte into `print_buf` and the system crashes.
+Option 2 calls `inspect_index` and like I already explained, it writes the decrypted byte into `print_buf` and the system crashes. 
+
+## Putting everything together
+
+So now that we know what the code does, let's actually put everything together:
+
