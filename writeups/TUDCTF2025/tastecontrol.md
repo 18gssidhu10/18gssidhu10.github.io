@@ -248,3 +248,26 @@ Option 2 calls `inspect_index` and like I already explained, it writes the decry
 
 So now that we know what the code does, let's actually put everything together:
 
+Let's taste byte 0 first. This is what we get:
+![tasting byte 0 before crash](/assets/images/TUDCTF2025/byte0-wo-crash.png)
+
+If we convert the Hex to ASCII, we get 4.
+Now let's prepare byte 0 and open puTTY again after it crashes (Do **not** remove the esp32, just open puTTY again, otherwise it will mess things up). If we taste byte 0 now, we get this:
+![tasting byte 0 after we crash](/assets/images/TUDCTF2025/byte0-after-crash.png)
+
+And if we convert the Hex to ASCII, we get 'T', which is a good sign. Let's try 2 more bytes
+Byte 1 :
+![byte 1 before crash](/assets/images/TUDCTF2025/byte1beforecrash.png)
+Hex -> ASCII: 
+
+![byte 1 after crash](/assets/images/TUDCTF2025/byte1aftercrash.png)
+Hex -> ASCII: U
+
+Byte 2: 
+![byte 2 before crash](/assets/images/TUDCTF2025/byte2beforecrash.png)
+Hex -> ASCII: 
+
+![byte 2 after crash](/assets/images/TUDCTF2025/byte2aftercrash.png)
+Hex -> ASCII: D
+
+So the first 3 letters are TUD, and if you repeat this 29 times more you get the flag: TUDCTF{WD_Ravioli_Taste_Control}

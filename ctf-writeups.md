@@ -9,4 +9,4 @@ Here is a collection of my solutions for various CTF's and their challenges. Ver
 
 
 ### TUD CTF 2025
-* [Taste Control](/writeups/TUDCTF2025/a.md)
+* [Taste Control](/writeups/TUDCTF2025/tastecontrol.md)

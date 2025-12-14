@@ -2,9 +2,8 @@
 layout: default
 title: Home
 ---
-<img src="/assets/images/under-construction.jpg" alt="Site under construction" width="200"/>
 # Welcome
-Bwaaa
+![site under construction](/assets/site%20under%20construction.jpg)
 * [HS Thesis](/HS-Thesis)
 * [CTF Writeups](/ctf-writeups)
 
