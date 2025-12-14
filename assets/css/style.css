@@ -79,15 +79,30 @@ img {
 }
 
 
-pre, code {
+code {
   font-family: Consolas, Monaco, monospace;
-  background-color: #161b22;
+  color: #ffcc00;            
+  background-color: rgba(110, 118, 129, 0.4); 
+  padding: 2px 5px;             
+  border-radius: 4px;
+  font-size: 0.9em;          
+}
+
+pre {
+  background-color: #161b22;    
   border: 1px solid #30363d;
   border-radius: 6px;
-  color: #ffcc00; 
-  padding: 10px;
-  overflow-x: auto;   
-  max-width: 100%;    
+  padding: 15px;                
+  overflow-x: auto;            
+  margin: 20px 0;
+  max-width: 100%;
+}
+pre code {
+  background-color: transparent; /* No double background */
+  border: none;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
 }
 
 
